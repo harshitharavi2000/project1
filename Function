@@ -1,0 +1,46 @@
+test_str="mississippi"
+countm = 0
+counti = 0
+counts = 0
+countp = 0
+for i in test_str: 
+
+    if i == 'm': 
+
+        countm = countm + 1
+
+print ("Count of e in GeeksforGeeks is : "
+                            +  str(countm)) 
+
+
+for i in test_str: 
+
+    if i == 'i': 
+
+        counti = counti + 1
+
+print ("Count of e in GeeksforGeeks is : "
+
+                            +  str(counti)) 
+
+
+for i in test_str: 
+
+    if i == 's': 
+
+        counts = counts + 1
+
+print ("Count of e in GeeksforGeeks is : "
+
+                            +  str(counts)) 
+
+for i in test_str: 
+
+    if i == 'p': 
+
+        countp = countp + 1
+ 
+
+print ("Count of e in GeeksforGeeks is : "
+
+                            +  str(countp)) 
